@@ -1,3 +1,6 @@
-session03/*.pdf
-session04/*.pdf
-session05/*.pdf
+session03/*
+!session03/*.c
+session04/*
+!session04/*.c
+session05/*
+!session05/*.c
