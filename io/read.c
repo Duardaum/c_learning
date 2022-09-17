@@ -9,13 +9,25 @@
 int main(){
     FILE *fp;
     char c;
+    char nomes[3][50];
+    int i = 0;
 
+    //leitura por caracter
     fp = fopen("./io/read.txt", "r");
-    while((c = getc(fp)) != EOF){//leitura por caracter
+    while((c = getc(fp)) != EOF){
         printf("%c", c);
     }
     fclose(fp);
+    printf("\n");
 
+    //leitura por linha
+    fp = fopen("./io/read.txt", "r");
+    while(!feof(fp)){
+        fgets(nomes[i], 50, fp);
+        printf("Nome: %s", nomes[i]);
+        i++;
+    }
+    fclose(fp);
     printf("\n");
 
     return 0;
