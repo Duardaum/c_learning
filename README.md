@@ -34,3 +34,8 @@ Nesta sessão, vamos anotar apenas os comandos práticos utilizados durante o ap
 
 **Compilando e executando código com headers:**
 > $ gcc -Wall -o ./<nome_do_programa> ./<nome_do_programa.c> ./<nome_do_header.c> && ./<nome_do_programa>
+
+## Documentação
+
+A linguagem C, não possue uma documentação pública e gratuita oficial. As documentações oficiais existentes de **C** são pagas e você precisa adquirir um PDF/EBOOK para ter as informações da linguagem de forma oficial em mãos para consultar. \
+Mas existem sites (em sua maioria em inglês), que mantem uma documentação de forma independente, que posse ser usada como base para quaisquer dúvidas com relação a **C** e que é atualizado constantemente. Um deles é o [devdocs.io](https://devdocs.io/c/), que até registra as alterações feitas na linguagem baseada nas revisões (versões) da linguagem.
