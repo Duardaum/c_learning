@@ -39,3 +39,10 @@ Nesta sessão, vamos anotar apenas os comandos práticos utilizados durante o ap
 
 A linguagem C, não possue uma documentação pública e gratuita oficial. As documentações oficiais existentes de **C** são pagas e você precisa adquirir um PDF/EBOOK para ter as informações da linguagem de forma oficial em mãos para consultar. \
 Mas existem sites (em sua maioria em inglês), que mantem uma documentação de forma independente, que posse ser usada como base para quaisquer dúvidas com relação a **C** e que é atualizado constantemente. Um deles é o [devdocs.io](https://devdocs.io/c/), que até registra as alterações feitas na linguagem baseada nas revisões (versões) da linguagem.
+
+## Tipos em C
+
+Na linguagem C, existem os tipos de dados, que o seu tamanho de espaço é fixo, mais existe alguns poucos que, se rodados em sistemas operacionais de 32 bits, podem variar no total de espaço consumido em memória. \
+Segue abaixo, uma imagem com estes tamanhos e sintaxes para serem usadas na impressão para o usuário: \
+
+![Tipos de Dados em C](./tipos_em_c.png)
