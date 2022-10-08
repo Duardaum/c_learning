@@ -9,6 +9,9 @@
  * atoi: converte string em inteiro
  * atol: converte string em inteiro longo
  * 
+ * Existem outros métodos, mais recomendo fazer a procura pelos mesmos, 
+ * a medida que você for precisar em seus programas.
+ * 
  */
 
 int main(){
@@ -22,7 +25,7 @@ int main(){
 
     char sc[20] = "99999999999999999999";
     long int li = atol(sc);
-    printf("Valor convertido para inteiro: %ld ! \n", li);
+    printf("Valor convertido para inteiro longo: %ld ! \n", li);
 
     return 0;
 }
