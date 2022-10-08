@@ -42,7 +42,7 @@ Mas existem sites (em sua maioria em inglês), que mantem uma documentação de 
 
 ## Tipos em C
 
-Na linguagem C, existem os tipos de dados, que o seu tamanho de espaço é fixo, mais existe alguns poucos que, se rodados em sistemas operacionais de 32 bits, podem variar no total de espaço consumido em memória. \
-Segue abaixo, uma imagem com estes tamanhos e sintaxes para serem usadas na impressão para o usuário:
+Na linguagem C, os tipos de dados, possuem tamanhos fixos de ocupação de espaço em memória, mais existem alguns destes tipos, que o tamanho pode variar, dependendo da plataforma ou versão do S.O. (32 bits ou 64 bits). Então, dependendo da plataforma para a qual você estiver desenvolvendo este programa, lembre-se de certificar que o código em questão, irá ser compativel. \
+Para mais detalhes de algumas plataformas que tem tamanho diferente para certos tipos de dados clique [AQUI](https://cleitonbueno.com/programacao-c-tipos-de-dados/)
 
 ![Tipos de Dados em C](./tipos_em_c.png)
