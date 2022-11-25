@@ -2,6 +2,8 @@
 #include <stdlib.h>
 
 /**
+ * Esta lib possui funções envolvendo alocação de memória, controle de processos, conversões e outras.
+ * Para mais funções desta lib, recomendo olhar na internet.
  * 
  * Alguns métodos da stdlib:
  * 

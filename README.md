@@ -35,6 +35,9 @@ Nesta sessão, vamos anotar apenas os comandos práticos utilizados durante o ap
 **Compilando e executando código com headers:**
 > $ gcc -Wall -o ./<nome_do_programa> ./<nome_do_programa.c> ./<nome_do_header.c> && ./<nome_do_programa>
 
+**Compilando e executando código usando a lib MATH:**
+> $ gcc -Wall -o ./<nome_do_programa> ./<nome_do_programa.c> -lm && ./<nome_do_programa>
+
 ## Documentação
 
 A linguagem C, não possue uma documentação pública e gratuita oficial. As documentações oficiais existentes de **C** são pagas e você precisa adquirir um PDF/EBOOK para ter as informações da linguagem de forma oficial em mãos para consultar. \
