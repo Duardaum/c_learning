@@ -29,7 +29,7 @@ int main(){
 
     strcpy(status, (cafofo.propria ? "É" : "NÃO É"));//pela variavel ser um array de char, a unica forma de especificar valor, é através de uma função
 
-    printf("Minha humilde residência tem %d comodo(s), %d banheiro(s) e %s uma casa própria! \n", cafofo.comodos, cafofo.comodos, status);
+    printf("Minha humilde residência tem %d comodo(s), %d banheiro(s) e %s uma casa própria! \n", cafofo.comodos, cafofo.banheiros, status);
 
     return 0;
 }
