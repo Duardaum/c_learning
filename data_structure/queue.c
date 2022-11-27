@@ -77,8 +77,8 @@ void menu(){
     int opcao = 0;
     system("clear");
     printf("\n===== FILA - Menu ====\n");
-    printf("\nSelecione uma das opções para realizar com a fila: \n");
-    printf("1. Listar \n 2. Adicionar elemento \n 3. Remover elemento \n 4. Resetar fila \n");
+    printf("Selecione uma das opções para realizar com a fila:\n");
+    printf("\n1. Listar \n2. Adicionar elemento \n3. Remover elemento \n4. Resetar fila \n");
     scanf("%d", &opcao);
     if(opcao == 1)
         lista();
