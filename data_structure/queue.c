@@ -80,16 +80,22 @@ void menu(){
     printf("Selecione uma das opções para realizar com a fila:\n");
     printf("\n1. Listar \n2. Adicionar elemento \n3. Remover elemento \n4. Resetar fila \n");
     scanf("%d", &opcao);
-    if(opcao == 1)
-        lista();
-    else if(opcao == 2)
-        adiciona();
-    else if(opcao == 3)
-        deleta();
-    else if(opcao == 4)
-        reseta();
-    else
-        menu();
+    switch(opcao){
+        case 1:
+            lista();
+            break;
+        case 2:
+            adiciona();
+            break;
+        case 3:
+            deleta();
+            break;
+        case 4:
+            reseta();
+            break;
+        default:
+            menu();
+    }
 }
 
 int main(){
