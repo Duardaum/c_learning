@@ -7,7 +7,7 @@
  * 
  * P.S.: Em uma lista encadeada, cada elemento é um objeto, onde um
  * dos seus atributos, aponta para o próximo elemento da lista.
- * Por ser assim, voê pode adicionar elementos na lista encadeada,
+ * Por ser assim, você pode adicionar elementos na lista encadeada,
  * tanto no final quanto no começo da lista.
  * Em uma lista encadeada, cada elemento dela é chamada de Nó!
  * 
