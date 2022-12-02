@@ -33,15 +33,17 @@ void insertBranch(tree** t, int n){
 }
 
 void displayBranch(tree *t){
+    printf("(");
     printf("%d", t->value);
     if(t->branch_left != NULL){
-        printf("<");
+        printf("<-");
         displayBranch(t->branch_left);
     }
     if(t->branch_right != NULL){
-        printf(">");
+        printf("->");
         displayBranch(t->branch_right);
     }
+    printf(")");
 }
 
 void displayTree(tree *t){
@@ -73,7 +75,7 @@ int main(){
     printf("\nShowing the Tree:\n");
     displayTree(arvore);
 
-    printf("\nLooking for a number 7 on the Tree:\n");
+    printf("\n\nLooking for a number 7 on the Tree:\n");
     if(searchOnTree(arvore, 7))
         printf("Found!\n");
     else
